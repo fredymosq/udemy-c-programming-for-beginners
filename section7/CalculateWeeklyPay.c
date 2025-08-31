@@ -31,6 +31,14 @@ int main(int argc, char const *argv[])
     printf("How many hours do you worked this week:\n");
     scanf("%lf", &hoursWorked);
 
+    if (hoursWorked < 0)
+    {
+        printf("You entered wrong hours, must be grater than 0");
+        
+        return 0;
+    }
+    
+
     double remainderHoursWorked;
 
     if (hoursWorked > BASIC_HOURS_WORKED)
