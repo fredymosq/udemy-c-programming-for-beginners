@@ -15,7 +15,8 @@ int main(int argc, char const *argv[])
     if (remainder == 0)
     {
         printf("Number %i is Even\n", numberToTest);
-    }else
+    }
+    else
     {
         printf("Number %i is Odd\n", numberToTest);
     }
