@@ -20,6 +20,7 @@ int main(int argc, char const *argv[])
 
     average = (float)sum / count;
 
+    printf("\nSum of ten grades is %i\n", sum);
     printf("\nAverage of ten grades is %.2f\n", average);
     
     return 0;
