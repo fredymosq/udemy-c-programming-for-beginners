@@ -6,6 +6,6 @@
 
 # Allow .c files
 !*.c
-
+!*.h
 # Keep this file
 !.gitignore
