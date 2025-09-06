@@ -12,7 +12,8 @@ void squareNumber(int *number);
 int main(int argc, char const *argv[])
 {
     int number = 16;
-     printf("square of %i\n", number);
+    printf("square of %i\n", number);
+    
     int *pNumber = &number;
     squareNumber(pNumber);
 
