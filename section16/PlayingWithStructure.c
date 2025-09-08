@@ -1,7 +1,7 @@
 // write a program that declares a structure and prints out it's content
 // create an employee structure with 3 members
 // name (char array)
-// hiresDate (int)
+// hiresDate (char array)
 // salary (float)
 
 #include <stdio.h>
