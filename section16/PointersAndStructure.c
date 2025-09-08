@@ -22,8 +22,9 @@ void printItem(struct Item *item);
 int main(int argc, char const *argv[])
 {
     struct Item item;
-    readItem(&item);
-    printItem(&item);
+    struct Item *pItem = &item;
+    readItem(pItem);
+    printItem(pItem );
 
     free(item.itemName);
 
