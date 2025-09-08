@@ -26,31 +26,31 @@ int main(int argc, char const *argv[])
     readItem(pItem);
     printItem(pItem );
 
-    free(item.itemName);
+    free(pItem->itemName);
 
     return 0;
 }
 
 void readItem(struct Item *item){
 
-    item ->itemName = malloc((100+1) * (sizeof(char)));
+    item ->itemName = (char *) malloc((100+1) * (sizeof(char)));
 
     printf("Enter item name: ");
-    scanf("%[^\n]%*c", item ->itemName);
+    scanf("%[^\n]%*c", item->itemName);
 
     printf("\nEnter item quantity: ");
-    scanf("%i", &item ->quantity);
+    scanf("%i", &item->quantity);
 
     printf("\nEnter item price: ");
-    scanf("%f", &item -> price);
+    scanf("%f", &item->price);
 
-    item -> amount = item ->quantity * item ->price;
+    item -> amount = item->quantity * item->price;
 
 }
 
 void printItem(struct Item *item){
     printf("\nItem name: %s", item ->itemName);
-    printf("\nItem quantity: %i", item ->quantity);
-    printf("\nItem price: %.2f", item ->price);
-    printf("\nItem amount: %.2f", item ->amount);
+    printf("\nItem quantity: %i", item->quantity);
+    printf("\nItem price: %.2f", item->price);
+    printf("\nItem amount: %.2f", item->amount);
 }
