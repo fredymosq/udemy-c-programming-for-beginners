@@ -29,6 +29,9 @@ int main(int argc, char const *argv[])
 
     printf("Number of lines of Read file is: %i", counter);
     
+
+    fclose(pFile);
+    pFile = NULL;
     
     return 0;
 }
