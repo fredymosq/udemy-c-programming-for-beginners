@@ -30,7 +30,7 @@ int main(int argc, char const *argv[])
     {
         char charToUpper = character;
 
-        if (charToUpper != '\n')
+        if (islower(charToUpper) && charToUpper != '\n')
         {
             charToUpper = toupper(charToUpper);
         }
