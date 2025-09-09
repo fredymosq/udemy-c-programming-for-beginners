@@ -1,2 +1,1 @@
-this is my file
-I want to read from c
+this is my fileI want to read from cother line
