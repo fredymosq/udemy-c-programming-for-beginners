@@ -1,2 +1,2 @@
-this is my fileI want to read from c
-other line
+THIS IS MY FILEI WANT TO READ FROM C
+OTHER LINE THIS IS LOWERCASE
