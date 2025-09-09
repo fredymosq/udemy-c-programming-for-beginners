@@ -12,7 +12,7 @@ int main(int argc, char const *argv[])
 
     if (pFile == NULL)
     {
-        printf("Can read the file");
+        printf("Can't read the file");
         return -1;
     }
 
