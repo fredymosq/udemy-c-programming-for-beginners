@@ -8,5 +8,6 @@
 !*.c
 !*.h
 !*.txt
+!*.jpg
 # Keep this file
 !.gitignore

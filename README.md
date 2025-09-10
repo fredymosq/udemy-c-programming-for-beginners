@@ -12,3 +12,7 @@ by *Jason Fedin*.
 ## Notes
 - The solutions are written in standard C, following the style and guidelines presented in the course.  
 - This repository is intended as a study reference and practice archive for learning C programming fundamentals.  
+
+# Certificate of Completion
+ - Link: https://www.udemy.com/certificate/UC-8e2e2aac-155e-409e-9501-f14f03e41fbb/
+ ![App Screenshot](certfificationofcompletion.jpg)
